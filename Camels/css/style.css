@@ -1,0 +1,493 @@
+.flex {
+  display: flex; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.navbar {
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  font-size: 14px; }
+
+.nav_link {
+  text-decoration: none;
+  padding-bottom: 5px; }
+
+.main_btn {
+  font-size: 12px;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #9A5924;
+  color: #ffffff;
+  cursor: pointer; }
+
+.camel_icon {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 40px;
+  border-bottom: 1.5px solid #DBA674; }
+
+.main_title {
+  margin: 5px 0;
+  color: #9A5924; }
+
+.main_title_box {
+  width: fit-content; }
+
+.box_top {
+  padding: 5px 50px;
+  margin: auto 0;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #F2E0CE; }
+  .box_top .material-icons {
+    color: #9A5924; }
+
+.header_btn {
+  border: 1px solid #9A5924;
+  cursor: pointer; }
+
+.contacts {
+  justify-content: space-between; }
+  .contacts .material-icons {
+    padding-right: 5px; }
+
+.phone,
+.meil {
+  align-items: center; }
+
+.phone {
+  font-weight: bold;
+  margin-right: 40px; }
+
+.logo_box {
+  width: 100px;
+  height: 100px; }
+
+.btn_basket {
+  border-radius: 50%;
+  padding: 5px; }
+
+.btn_account,
+.btn_rate {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 40px;
+  align-self: center; }
+
+.btn_rate {
+  align-items: center; }
+
+.triangle {
+  display: inline-block;
+  margin-left: 10px;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 7px;
+  border-right-width: 7px;
+  border-top: 7px solid black; }
+
+.btn_basket_img {
+  width: 40px;
+  height: 40px; }
+
+.navbar_top {
+  padding: 0 70px;
+  margin: 20px 0; }
+
+.nav_link_top:hover,
+.top_link_active {
+  border-bottom: 2px solid #9A5924; }
+
+.nav_link_top {
+  color: #000000; }
+
+.introduction {
+  background-image: url("../images/camel6.jpg");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center; }
+
+.introduction_title {
+  margin: 0;
+  padding-bottom: 10px; }
+
+.introduction_body {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px 40px; }
+
+.introduction_btn {
+  margin: 0 auto; }
+
+.about {
+  padding: 50px; }
+
+.about_img {
+  background-image: url("../images/camel2.jpg");
+  height: 300px;
+  width: 200px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.about_context,
+.about_img {
+  flex: 1 0 47%; }
+
+.about_img {
+  height: 350px; }
+
+.about_context {
+  margin-right: 20px; }
+
+.about_description {
+  margin: 30px 0; }
+  .about_description p {
+    line-height: 1.5; }
+
+.about_btn {
+  margin-right: auto; }
+
+.body_info {
+  background-color: #F3E6D5;
+  justify-content: space-between;
+  padding: 40px 50px; }
+
+.card {
+  flex-direction: column;
+  align-items: stretch; }
+
+.card_title {
+  margin: 0 auto; }
+
+.card_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px; }
+
+.card_body {
+  background-color: #ffffff;
+  position: relative;
+  padding: 30px;
+  margin: 0 20px;
+  top: -40px;
+  flex: 1;
+  flex-direction: column; }
+
+.card_img_body {
+  background-image: url("../images/paul-weaver-1092115-unsplash.jpg"); }
+
+.card_img_feet {
+  background-image: url("../images/freestocks-org-487549-unsplash.jpg"); }
+
+.body_info_description {
+  line-height: 1.5; }
+
+.card_footer {
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 50px;
+  flex: 1 0 auto; }
+
+.card_footer_block {
+  width: 40px;
+  height: 5px;
+  margin-top: auto;
+  margin-right: 10px; }
+
+.brown_block {
+  background-color: #9A5924; }
+
+.white_block {
+  border: 1px solid #9A5924; }
+
+.camel_work {
+  background-image: url("../images/na_5b911a4e9009c.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 50px;
+  width: 100%;
+  height: 550px;
+  background-position-y: 30%; }
+
+.camel_work_body {
+  flex-direction: column;
+  height: 100%;
+  padding: 60px 30px;
+  background-color: rgba(243, 230, 213, 0.5); }
+
+.camel_work_title {
+  margin: 0 auto; }
+
+.camel_work_context {
+  line-height: 1.5; }
+
+.page_link_box {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end; }
+
+.page_link {
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #9A5924; }
+  .page_link:nth-child(1) {
+    margin-right: 30px; }
+  .page_link:hover {
+    border-bottom: 2px solid #9A5924; }
+
+.page_link_active {
+  border-bottom: 2px solid #9A5924; }
+
+.mongolia {
+  padding: 50px 40px 40px; }
+
+.mongolia_title_box {
+  margin: 0 auto; }
+
+.img_box {
+  flex: 1;
+  margin-right: 20px; }
+  .img_box img {
+    margin-bottom: 10px; }
+
+.mongolia_body {
+  flex: 2; }
+
+.mongolia_logo_box {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  align-items: flex-end; }
+
+.mongolia_context {
+  margin-top: 30px;
+  line-height: 1.5; }
+
+.products {
+  padding: 50px;
+  background-color: #F2E0CE; }
+
+.products_title_box {
+  margin: 0 auto; }
+
+.products_description {
+  margin: 20px 0;
+  text-align: center;
+  line-height: 1.5; }
+
+.products_items_box {
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.product_card {
+  width: 33%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; }
+
+.product_img {
+  height: 250px;
+  padding: 15px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.product_title {
+  width: 100%;
+  margin: auto;
+  padding: 15px 60px;
+  background-color: rgba(243, 230, 213, 0.7); }
+
+.product_title_border {
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  border: 1px solid #ffffff; }
+
+.product_footer {
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 1.5;
+  padding: 30px 10px;
+  flex: 1;
+  justify-content: center;
+  align-items: center; }
+
+.img_quilt {
+  background-image: url("../images/quilt1.png"); }
+
+.img_gloves {
+  background-image: url("../images/gloves.fw.png"); }
+
+.img_socks {
+  background-image: url("../images/socks.fw.png"); }
+
+.img_shawls {
+  background-image: url("../images/scarf1.fw.png"); }
+
+.products_footer_context {
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center; }
+
+.product_btn {
+  text-decoration: none;
+  margin-top: 10px; }
+
+.comments {
+  background-image: url("../images/mongolia-695267_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px 0; }
+  .comments .camel_icon_img {
+    filter: brightness(200%); }
+
+.comments_title_box {
+  margin: 0 auto 30px; }
+
+.comments_box {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px 50px;
+  border-top: 2px solid #9A5924;
+  min-width: fit-content;
+  max-width: 60%;
+  margin: 0 auto;
+  max-height: 70%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column; }
+
+.comment {
+  flex: 1; }
+
+.comment_id {
+  padding: 15px 30px;
+  margin: 10px auto;
+  border-bottom: 1px solid #9A5924;
+  width: 25%;
+  text-align: center; }
+
+.avatar_box {
+  background-image: url("../images/lura_avatar.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto; }
+  .avatar_box img {
+    width: 100%;
+    height: auto; }
+
+.name {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 5px 0; }
+
+.address {
+  color: #9A5924;
+  font-size: 12px; }
+
+.comment_txt {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 20px; }
+
+.dots_box {
+  justify-content: center; }
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #DBA674;
+  cursor: pointer; }
+  .dot:not(:nth-child(7)) {
+    margin-right: 10px; }
+
+.active_dot {
+  background-color: #9A5924; }
+
+.footer {
+  background-color: #532805;
+  padding: 20px 50px 30px; }
+
+.footer_btn {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  color: #000000;
+  width: fit-content;
+  background-color: #ffffff;
+  margin: 0 0 0 50px; }
+
+.nav_link_footer {
+  color: #ffffff; }
+
+.nav_link_footer:hover,
+.footer_link_active {
+  border-bottom: 2px solid #DBA674; }
+
+.footer_address,
+.footer_phone,
+.footer_mail {
+  align-items: center; }
+
+.navbar_footer {
+  align-items: center;
+  justify-content: stretch;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #DBA674; }
+  .navbar_footer .navbar {
+    flex: 1; }
+
+.foter_feedback {
+  justify-content: space-between;
+  margin-top: 30px; }
+
+.footer_contact_info {
+  justify-content: space-between;
+  flex: 2; }
+  .footer_contact_info .material-icons {
+    padding-right: 5px;
+    color: #DBA674; }
+  .footer_contact_info span {
+    color: #ffffff; }
+
+.social_link {
+  flex: 1;
+  justify-content: flex-end; }
+
+.social_link_icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px; }
+  .social_link_icon:nth-child(1) {
+    margin-right: 20px;
+    background-color: #ffffff;
+    padding: 5px; }
+
+.facebook_icon {
+  filter: brightness(1000%);
+  border-radius: 5px; }
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  font-family: 'Roboto', sans-serif; }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=style.css.map */

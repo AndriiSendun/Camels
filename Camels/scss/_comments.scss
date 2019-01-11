@@ -1,0 +1,90 @@
+.comments {
+  background-image: url("../images/mongolia-695267_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px 0;
+
+  .camel_icon_img {
+    filter: brightness(200%);
+  }
+}
+
+.comments_title_box {
+  margin: 0 auto 30px;
+}
+
+.comments_box {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px 50px;
+  border-top: 2px solid $commentsBoxBorder;
+  min-width: fit-content;
+  max-width: 60%;
+  margin: 0 auto;
+  max-height: 70%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment {
+  flex: 1;
+}
+
+.comment_id {
+  padding: 15px 30px;
+  margin: 10px auto;
+  border-bottom: 1px solid $commentIdBorder;
+  width: 25%;
+  text-align: center;
+}
+
+.avatar_box {
+  background-image: url("../images/lura_avatar.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.address {
+  color: $addressColor;
+  font-size: 12px;
+}
+
+.comment_txt {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.dots_box {
+  justify-content: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: $dotsBg;
+  cursor: pointer;
+
+  &:not(:nth-child(7)) {
+    margin-right: 10px;
+  }
+}
+
+.active_dot {
+  background-color: $activeDot;
+}

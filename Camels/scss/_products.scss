@@ -1,0 +1,85 @@
+.products {
+  padding: 50px;
+  background-color: $productsBg;
+}
+
+.products_title_box {
+  margin: 0 auto;
+}
+
+.products_description {
+  margin: 20px 0;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.products_items_box {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product_card {
+  width: 33%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product_img {
+  height: 250px;
+  padding: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product_title {
+  width: 100%;
+  margin: auto;
+  padding: 15px 60px;
+  background-color: rgba(243, 230, 213, 0.7);
+}
+
+.product_title_border {
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  border: 1px solid #ffffff;
+}
+
+.product_footer {
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 1.5;
+  padding: 30px 10px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_quilt {
+  background-image: url("../images/quilt1.png");
+}
+
+.img_gloves {
+  background-image: url("../images/gloves.fw.png");
+}
+
+.img_socks {
+  background-image: url("../images/socks.fw.png");
+}
+
+.img_shawls {
+  background-image: url("../images/scarf1.fw.png");
+}
+
+.products_footer_context {
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product_btn {
+  text-decoration: none;
+  margin-top: 10px;
+}

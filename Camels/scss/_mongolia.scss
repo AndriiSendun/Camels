@@ -1,0 +1,32 @@
+.mongolia {
+  padding: 50px 40px 40px;
+}
+
+.mongolia_title_box {
+  margin: 0 auto;
+}
+
+.img_box {
+  flex: 1;
+  margin-right: 20px;
+
+  img {
+    margin-bottom: 10px;
+  }
+}
+
+.mongolia_body {
+  flex: 2;
+}
+
+.mongolia_logo_box {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  align-items: flex-end;
+}
+
+.mongolia_context {
+  margin-top: 30px;
+  line-height: 1.5;
+}

@@ -1,0 +1,47 @@
+.flex {
+  display: flex;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.nav_link {
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.main_btn {
+  font-size: 12px;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: $mainBtnBg;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.camel_icon {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 40px;
+  border-bottom: 1.5px solid $camelIconBorder;
+}
+
+.main_title {
+  margin: 5px 0;
+  color: $mainTitle;
+}
+
+.main_title_box {
+  width: fit-content;
+}

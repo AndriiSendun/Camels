@@ -1,0 +1,22 @@
+.introduction {
+  background-image: url("../images/camel6.jpg");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction_title {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.introduction_body {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px 40px;
+}
+
+.introduction_btn {
+  margin: 0 auto;
+}

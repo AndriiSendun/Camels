@@ -1,0 +1,25 @@
+@import "variables";
+@import "globalStyle";
+@import "header";
+@import "introduction";
+@import "about";
+@import "bodyInfo";
+@import "camelWork";
+@import "mongolia";
+@import "products";
+@import "comments";
+@import "footer";
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+

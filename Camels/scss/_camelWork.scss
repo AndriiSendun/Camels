@@ -1,0 +1,49 @@
+.camel_work {
+  background-image: url("../images/na_5b911a4e9009c.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 50px;
+  width: 100%;
+  height: 550px;
+  background-position-y: 30%
+}
+
+.camel_work_body {
+  flex-direction: column;
+  height: 100%;
+  padding: 60px 30px;
+  background-color: rgba(243, 230, 213, 0.5);
+}
+
+.camel_work_title {
+  margin: 0 auto;
+}
+
+.camel_work_context {
+  line-height: 1.5;
+}
+
+.page_link_box {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.page_link {
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: $camelWorkLink;
+
+  &:nth-child(1) {
+    margin-right: 30px;
+  }
+
+  &:hover {
+    border-bottom: 2px solid $camelLinkHover;
+  }
+}
+
+.page_link_active {
+  border-bottom: 2px solid $camelLinkHover;
+}
